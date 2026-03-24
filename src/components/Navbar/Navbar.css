@@ -1,0 +1,101 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.navbar .logo{
+    color: #000;
+    font-weight: 800;
+    font-size: 26px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 17px;
+    color: #494949;
+}
+
+.navbar .navbar-menu li{
+    cursor: pointer;
+}
+
+.navbar .navbar-menu .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #747474;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.navbar-right .cart-icon{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #000;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid #e2e2e2;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.navbar-right .cart-icon:hover{
+    background-color: #fff4f2;
+    color: #000;
+}
+
+.navbar-right .search-box{
+    border: 1px solid #e2e2e2;
+    height: 35px;
+    /* border-radius: 20px; */
+    padding: 1px 0px;
+}
+
+.navbar-right .search-box input{
+    height: 100%;
+    /* border-radius: 20px; */
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.navbar-right .search-box button{
+    padding: 7px 20px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    /* border-radius: 50px; */
+    border: none;
+    margin-right: 2px;
+    transition: 0.3s;
+    margin-left: 5px;
+}
+
+.navbar-right .btn{
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #e2e2e2;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar-right .btn:hover{
+    background-color: #fff4f2;
+    color: #000;
+}
