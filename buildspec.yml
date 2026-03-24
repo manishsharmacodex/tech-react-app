@@ -21,4 +21,4 @@ artifacts:
   files:
     - '**/*'
   base-directory: dist
-  discard-path: no
+  discard-paths: no
