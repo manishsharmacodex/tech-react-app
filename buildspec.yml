@@ -13,10 +13,6 @@ phases:
       - echo Building the Vite React app...
       - npm run build
 
-  post_build:
-    commands:
-      - echo Build completed successfully
-
 artifacts:
   files:
     - '**/*'
